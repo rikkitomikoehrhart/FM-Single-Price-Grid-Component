@@ -18,7 +18,6 @@ body {
     height: 100vh;
     justify-content: center;
     margin: 0;
-    overflow: hidden;
 }
 
 footer {
@@ -30,7 +29,28 @@ h1 {
     color: hsl(179, 62%, 43%);
 }
 
+li {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
 /* Class Selectors */ 
+
+.amount {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding: 0;
+    margin: 0;
+}
 
 .container {
     position: absolute;
@@ -41,8 +61,8 @@ h1 {
     background-color: white;
     width: 75%;
     transform: translate(-50%, -50%);
-    padding: 25px 50px;
     border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
 }
 
 .guarantee {
@@ -51,12 +71,71 @@ h1 {
     margin-bottom: 10px;
 }
 
+.overlay {
+    background-color: rgba(255, 255, 255, .25);
+    border-bottom-right-radius: 10px;;
+    z-index: 2;
+}
+
+.per-month {
+    font-weight: 100;
+    opacity: .5;
+    padding-left: 15px;
+    padding-top: 0;
+
+}
+
+.price {
+    color: white;
+    font-size: 30px;
+    padding-top: 0;
+}
+
+
+.sales-pitch {
+    font-size: 14px;
+    padding-bottom: 25px;
+    margin: 0;
+}
+
+.signup {
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    font-family: inherit;
+    padding: 7% 40%;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .1);
+}
+
+.subscription {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(179, 62%, 43%);
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    border-bottom-left-radius: 10px;
+}
+
+.subtitles {
+    color: white;
+    font-size: 18px;
+    padding-bottom: 0;
+}
+
 
 .tiles {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    width: 100%;
+    z-index: -100;
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 
@@ -68,12 +147,18 @@ h1 {
 }
 
 .welcome-tile {
-    padding-top: 0;
-    margin-top: 0;
-    padding-bottom: 10px;
+    padding: 25px 50px;
 }
 
-
+.why-us {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+}
 
 
 /* Tag Selectors */
