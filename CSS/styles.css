@@ -30,11 +30,11 @@ h1 {
 }
 
 li {
-    color: white;
+    color: hsl(204, 43%, 93%);
 }
 
 p {
-    color: white;
+    color: hsl(204, 43%, 93%);
 }
 
 ul {
@@ -71,6 +71,13 @@ ul {
     margin-bottom: 10px;
 }
 
+.list {
+    padding-left: 0;
+    font-size: 12px;
+    line-height: 1.25rem;
+}
+
+
 .overlay {
     background-color: rgba(255, 255, 255, .25);
     border-bottom-right-radius: 10px;;
@@ -86,7 +93,7 @@ ul {
 }
 
 .price {
-    color: white;
+    color: hsl(204, 43%, 93%);
     font-size: 30px;
     padding-top: 0;
 }
@@ -101,7 +108,7 @@ ul {
 .signup {
     border: none;
     background-color: hsl(71, 73%, 54%);
-    color: white;
+    color: hsl(204, 43%, 93%);
     font-family: inherit;
     padding: 7% 40%;
     border-radius: 5px;
@@ -121,7 +128,7 @@ ul {
 }
 
 .subtitles {
-    color: white;
+    color: hsl(204, 43%, 93%);
     font-size: 18px;
     padding-bottom: 0;
 }
