@@ -177,7 +177,35 @@ ul {
 
 /* Media Queries */ 
 
-
+@media (max-width:375px) {
+    footer {
+        visibility: hidden;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    .container{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 90%;
+        flex-direction: column;
+    }
+    .guarantee {
+        font-size: 14px;
+    }
+    .signup {
+        padding: 6%; 
+    }
+    .subtitles {
+        margin-bottom: 5px;
+    }
+    .tiles {
+        flex-direction: column;
+    }
+    .welcome-message {
+        font-size: 14px;
+    }
+}
 
 
 
