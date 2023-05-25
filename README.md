@@ -30,7 +30,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 ### Links
 
 - Solution URL: [https://github.com/rikkitomikoehrhart/FM-Single-Price-Grid-Component](https://github.com/rikkitomikoehrhart/FM-Single-Price-Grid-Component)
-- Live Site URL: [https://rikkitomikoehrhart.github.io/FM-Profile-Card-Component](https://rikkitomikoehrhart.github.io/FM-Profile-Card-Component)
+- Live Site URL: [https://rikkitomikoehrhart.github.io/FM-Single-Price-Grid-Component](https://rikkitomikoehrhart.github.io/FM-Single-Price-Grid-Component)
 
 ## My process
 
